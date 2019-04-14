@@ -1,0 +1,19 @@
+Comparision Table of 3 Cursors:
+==================================
+Property           Enumeration                       Iterator                              ListIterator 
+=========================================================================================================================
+Applicable for   -> Only Legacy Classes             -> Any Collection Objects         -> Only List Objects
+
+Movement         -> Single Direction(Only Forward)  -> Single Direction(Only Forward) -> Bi-Direction
+
+How to Get       -> By Using Elements()             -> By Using iterator()            -> By Using listIterator()
+
+Accessability    -> Only read                       -> Read abd Remove                -> Read, Remove, 
+                                                                                         Replace Existing Objects,
+                                                                                         Addition of New Objects
+
+
+Methods          -> hasMoreElements()               ->  hasNext()                     -> hasNext(), next(), nextIndex(),
+                    nextElements()                      next()                           hasPrevious(), previous(),
+                                                        remove()                         previousIndex(), remove(),
+                                                                                         set(Object new), add(Object new)
