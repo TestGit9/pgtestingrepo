@@ -1,0 +1,22 @@
+Difference between Arrays and Collections:
+
+
+Arrays:
+
+1) Arrays are fixed in size.
+2) With Respect to Memory Arrays are Not Recommended to Use.
+3) With respect to Performance Arrays are Recommended to Use.
+4) Arrays can Hold Only Homogeneous Data Elements.
+5) Arrays can Hold both Primitives and Objects.
+6) Arrays Concept is Not Implemented based on some Standard Data Structure. Hence Readymade Methods are Not Available.
+
+
+
+Collections:
+1)	Collections are Growable in Nature.
+2)	With Respect to Memory Collections are recommended to Use.
+3)	With respect to Performance Collections are Not Recommended to Use.
+4)	Collections can Hold both Homogeneous and Heterogeneous Data Elements.
+5)	Collections can Hold only Objects But Not Primitives.
+6)	For Every Collection class underlying data structure is Available. Hence Readymade Methods are Available. 
+ 
