@@ -30,16 +30,7 @@ public class CursorDemo {
 				
 				System.out.println(litr.getClass().getClassLoader());
 				
-				/*Cursors:
-		         * 
-		         * If we want to get Objects one by one from collection then we should go for Cursors
-		         * These are 3 Types of Cursors Available in JAVA
-		         *         Enumerations
-		         *         Iterator
-		         *         ListIterator
-				 * 
-				 * 
-				 */
+
 	}
 
 }
