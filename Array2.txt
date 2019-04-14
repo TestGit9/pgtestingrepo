@@ -1,0 +1,51 @@
+Array:
+
+An Array is an indexed collection of fixed number of homogeneous data elements.
+The mail Advantages of Array is we can Represent Multiple values as a single variable so that 
+Readability of the code will be improved.
+
+Limitations of Object Type Arrays:
+
+Arrays are  fixed in size.once we created an Array there is no chance of increasing and Decreasing 
+size Based on Our Requirements.Hence to use Arrays concept compulsory we should know size in advance 
+which may not be possible Always.
+
+Arrays can Hold Only Homogeneous data Elements:
+
+Eg:     Students[] s= new Students[10000];
+        s[0]=new Student();
+        
+        
+        s[1]=new Customer(); 
+        
+        Compile Time Error: Saying incompatible types
+                            found:Customer
+                            required:Student
+                            
+    We can Resolve this problem by using Object Type Arrays
+    
+        Object[] a=new Object[100000];
+        a[0]=new Student(); 
+        a[1]=new Customer();
+        
+        
+        Arrays Concept is Not Implemented Based on some standard data Structure Hence Ready Made 
+        Method Support is Not Available.Hence for Every Requirement we have to write the Code 
+        Explicitly Which Increases the Complexity of the Program.
+        
+   Advantages Of Collection:
+   
+   Collections are Growable in Nature.That is based on our Requirement We can increase or decrease 
+   the size.
+   
+   Collections can Hold both Homogeneous and Heterogeneous Data Elements.
+   
+   Every Collection Class is implemented based on some Standard Data Structure. Hence ready Made 
+   Method Support is Available.Being a programmer we have to use those methods and we are Not 
+   Responsible to Provide Implementation.       
+        
+         
+        
+        
+                                
+                            
